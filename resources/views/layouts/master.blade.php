@@ -9,6 +9,16 @@
 </head>
 <body>
     <div id="app">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <router-link to="/" class="navbar-brand">Vue-SPA</router-link>
+                </div>
+                <div class="navbar-header">
+                    <router-link to="/about" class="navbar-brand">About</router-link>
+                </div>
+            </div>
+        </nav>
         <router-view></router-view>
     </div>
 
